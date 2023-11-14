@@ -58,7 +58,7 @@ Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1
 ---
 
 ## Melting data frames
-
+## melt could adjust index, carnames was index, now it's a column can be munipulated like other columns
 
 ```r
 mtcars$carname <- rownames(mtcars)
